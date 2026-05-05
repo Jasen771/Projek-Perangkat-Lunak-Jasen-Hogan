@@ -1,9 +1,18 @@
 {
+  "name": "inventory-app",
+  "version": "1.0.0",
+  "author": "Jasen Hogan",
+  "description": "Inventory API dengan testing",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "jest --coverage"
+  },
   "dependencies": {
     "express": "^5.2.1"
   },
-  "devDependencies": {
-    "jest": "^30.3.0",
-    "supertest": "^7.2.2"
-  }
+"devDependencies": {
+  "jest": "^29.0.0",
+  "supertest": "^6.3.0"
+}
 }
